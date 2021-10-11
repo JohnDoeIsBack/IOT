@@ -1,6 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 import sys
+import datetime
 from hx711 import HX711
 import urllib2
 
@@ -52,6 +53,7 @@ while True:
         
         conn = urllib2.urlopen(baseURL + '&field1=%s' % (val))
 	print conn.read()
+	print(datetime.datetime.now())
 	# Closing the connection
 	conn.close()
        # if (val>=85):
