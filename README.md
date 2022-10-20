@@ -9,3 +9,7 @@ Initially Comment out hx.setreference() and run the code. Select a common value 
 IMP:- COPY YOUR API WRITE KEY FROM THINGSPEAK AND PASTE IT IN APIKEY function in code.     
 
 #Arduino
+
+#Raspberry PI
+
+#Thingspeak Cloud
